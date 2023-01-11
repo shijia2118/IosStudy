@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='内置的数据类型'/>
+        <page name='别名'/>
+        <page name='String'/>
+        <page name='区间运算符'/>
+        <page name='字典'/>
+        <page name='数组'/>
+        <page name='闭包'/>
+    </pages>
+</playground>
