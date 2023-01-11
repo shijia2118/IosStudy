@@ -150,8 +150,8 @@ struct TextPage: View {
                     HStack{
                         Text("默认")
                             .strikethrough()
-                        Text("红线")
-                            .strikethrough(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, color: Color.red)
+                        Text("蓝线")
+                            .strikethrough(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, color: Color.blue)
                      
 
                     }
