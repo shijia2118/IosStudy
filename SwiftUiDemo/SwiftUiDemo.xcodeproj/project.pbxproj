@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5C2D2A297547BE00D620B7 /* KeyboardTypePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */; };
 		8B7EFD2C296D167200E9E269 /* TextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7EFD2B296D167200E9E269 /* TextFont.swift */; };
 		8BA248D12956D6FB000DF74A /* SwiftUiDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA248D02956D6FB000DF74A /* SwiftUiDemoApp.swift */; };
 		8BA248D32956D6FB000DF74A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA248D22956D6FB000DF74A /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTypePage.swift; sourceTree = "<group>"; };
 		8B7EFD2B296D167200E9E269 /* TextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFont.swift; sourceTree = "<group>"; };
 		8BA248CD2956D6FB000DF74A /* SwiftUiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA248D02956D6FB000DF74A /* SwiftUiDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiDemoApp.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				8BDF99512966DC2C00018C22 /* TextPage.swift */,
 				8BDF99592967B44100018C22 /* TextFieldPage.swift */,
 				8B7EFD2B296D167200E9E269 /* TextFont.swift */,
+				8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BDF99402966C02200018C22 /* TextView.swift in Sources */,
+				8B5C2D2A297547BE00D620B7 /* KeyboardTypePage.swift in Sources */,
 				8BDF99522966DC2C00018C22 /* TextPage.swift in Sources */,
 				8BDF994B2966DA8700018C22 /* PageRow.swift in Sources */,
 				8BA248D32956D6FB000DF74A /* ContentView.swift in Sources */,
@@ -462,7 +466,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,7 +488,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

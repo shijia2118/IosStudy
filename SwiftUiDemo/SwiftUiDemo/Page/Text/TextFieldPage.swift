@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Charts
 
 struct TextFieldPage: View {
     
@@ -15,8 +14,29 @@ struct TextFieldPage: View {
 
     
     var body: some View {
-        Chart{
-            
+        List{
+            Section(header:Text("键盘样式")){
+                NavigationLink(
+                    destination: KeyboardTypePage(),
+                    label: {
+                       Text("点击查看键盘样式详情")
+                    })
+                
+            }
+            Group{
+                Section(header:Text("IOS2种展现样式")){
+                    VStack(alignment: .leading){
+                        Text("DefaultTextFieldStyle")
+                        TextField("请输入...",text: $username)
+                            .textFieldStyle(DefaultTextFieldStyle())
+                        Text("RoundedBorderTextFieldStyle")
+                        TextField("请输入...",text: $username)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                        
+                        
+                    }
+                }
+            }
         }
     }
 }
