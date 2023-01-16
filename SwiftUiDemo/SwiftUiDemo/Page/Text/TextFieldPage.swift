@@ -6,10 +6,18 @@
 //
 
 import SwiftUI
+import Charts
 
 struct TextFieldPage: View {
+    
+    @State private var username: String = ""
+    @State private var isEditing = false
+
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Chart{
+            
+        }
     }
 }
 

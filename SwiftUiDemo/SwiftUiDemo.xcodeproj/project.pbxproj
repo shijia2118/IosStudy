@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7EFD2C296D167200E9E269 /* TextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7EFD2B296D167200E9E269 /* TextFont.swift */; };
 		8BA248D12956D6FB000DF74A /* SwiftUiDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA248D02956D6FB000DF74A /* SwiftUiDemoApp.swift */; };
 		8BA248D32956D6FB000DF74A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA248D22956D6FB000DF74A /* ContentView.swift */; };
 		8BA248D52956D709000DF74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA248D42956D709000DF74A /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B7EFD2B296D167200E9E269 /* TextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFont.swift; sourceTree = "<group>"; };
 		8BA248CD2956D6FB000DF74A /* SwiftUiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA248D02956D6FB000DF74A /* SwiftUiDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiDemoApp.swift; sourceTree = "<group>"; };
 		8BA248D22956D6FB000DF74A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			children = (
 				8BDF99512966DC2C00018C22 /* TextPage.swift */,
 				8BDF99592967B44100018C22 /* TextFieldPage.swift */,
+				8B7EFD2B296D167200E9E269 /* TextFont.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				8BDF994B2966DA8700018C22 /* PageRow.swift in Sources */,
 				8BA248D32956D6FB000DF74A /* ContentView.swift in Sources */,
 				8BDF99452966CB7B00018C22 /* ButtonView.swift in Sources */,
+				8B7EFD2C296D167200E9E269 /* TextFont.swift in Sources */,
 				8BA248D12956D6FB000DF74A /* SwiftUiDemoApp.swift in Sources */,
 				8BDF995A2967B44100018C22 /* TextFieldPage.swift in Sources */,
 			);
@@ -458,7 +462,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +484,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

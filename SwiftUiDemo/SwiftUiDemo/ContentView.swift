@@ -23,8 +23,6 @@ struct ContentView: View {
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle(Text("SwiftUI"), displayMode: .large)
-            
-            
         }
         
  
