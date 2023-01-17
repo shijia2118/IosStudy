@@ -16,16 +16,17 @@ struct TextFieldPage: View {
     
     var body: some View {
         List{
-            Section(header:Text("键盘样式").bold()){
-                NavigationLink(
-                    destination: KeyboardTypePage(),
-                    label: {
-                       Text("点击查看键盘样式详情")
-                    })
-                
-            }
+            
             Group{
-                Section(header:Text("IOS2种展现样式").bold()){
+                Section(header:Text("键盘样式").bold()){
+                    NavigationLink(
+                        destination: KeyboardTypePage(),
+                        label: {
+                           Text("点击查看键盘样式详情")
+                        })
+                    
+                }
+                Section(header:Text("IOS4种展现样式").bold()){
                     VStack(alignment: .leading){
                         Text("默认样式")
                         TextField("请输入...",text: $username)
@@ -36,21 +37,10 @@ struct TextFieldPage: View {
                         Text("下划线(custom)")
                         TextField("请输入...",text: $username)
                             .textFieldStyle(UnderlineTextFieldStyle())
-                        Text("多行文本(TextEdior)")
-                        ZStack(alignment:.leading){
-                            TextEditor(text: $username)
-                                .lineSpacing(20)
-                                .disableAutocorrection(true)
-                            if username.isEmpty {
-                                Text("请输入内容").foregroundColor(.gray)
-                            }
-                        }
+                        Text("多行文本(IOS16)")
                         if #available(iOS 16, *) {
-//                            TextField("请输入...",text:$username,aixs:.vertical)
-                            
+                            TextField("请输入...",text:$username,axis:.vertical)
                         }
-                       
-                            
                     }
                 }
                 
