@@ -38,19 +38,24 @@ struct TextFieldPage: View {
                         TextField("请输入...",text: $username)
                             .textFieldStyle(UnderlineTextFieldStyle())
                         Text("多行文本(IOS16)")
-                        if #available(iOS 16, *) {
-                            TextField("请输入...",text:$username,axis:.vertical)
-                        }
+//                        if #available(iOS 16, *) {
+//                            TextField("请输入...",text:$username,axis:.vertical)
+//                        }
                     }
                 }
                 
                 Section(header:Text("内置方法").bold()){
                     VStack(alignment: .leading){
-                        Text("onChange:"+onChangeText)
+                        Text("内容改变:"+onChangeText)
                         TextField("请输入...",text: $username)
                             .onChange(of: username, perform: { value in
                                 onChangeText = username
                             })
+                        Text("是否聚焦:"+String(isEditing))
+                        TextField("请输入...",text:$username){ isEditing in
+                            self.isEditing = isEditing
+                            
+                        }
                     }
                 }
                 
@@ -93,6 +98,9 @@ struct TextFieldPage: View {
                             Text("行间距")
                             TextField("请输入...",text: $username)
                                 .lineSpacing(10)
+                            Text("字体大小写")
+                            TextField("请输入...",text: $username)
+                                .textCase(.lowercase)
                         }
                             
                        

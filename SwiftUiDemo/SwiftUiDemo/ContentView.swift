@@ -19,6 +19,9 @@ struct ContentView: View {
                     NavigationLink(destination: TextFieldPage()){
                         PageRow(title: "TextField", subTitle:"显示可编辑文本界面的输入控件" )
                     }
+                    NavigationLink(destination: ImagePage()){
+                        PageRow(title: "Image", subTitle:"显示图像控件" )
+                    }
                 }
             }
             .listStyle(GroupedListStyle())
