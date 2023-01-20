@@ -16,6 +16,15 @@
 		8BA248D82956D709000DF74A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA248D72956D709000DF74A /* Preview Assets.xcassets */; };
 		8BA248E32956D70A000DF74A /* SwiftUiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA248E22956D70A000DF74A /* SwiftUiDemoTests.swift */; };
 		8BA248EE2956D70A000DF74A /* SwiftUiDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA248ED2956D70A000DF74A /* SwiftUiDemoUITests.swift */; };
+		8BBF2C942977BE9400FF1403 /* ImagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2C932977BE9400FF1403 /* ImagePage.swift */; };
+		8BBF2C9C2977D2CE00FF1403 /* ResizableParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2C9B2977D2CE00FF1403 /* ResizableParam.swift */; };
+		8BBF2CA12977D51E00FF1403 /* EdgesIgnoringSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2CA02977D51E00FF1403 /* EdgesIgnoringSafeArea.swift */; };
+		8BBF2CA62977DDB100FF1403 /* ScaledToFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2CA52977DDB100FF1403 /* ScaledToFit.swift */; };
+		8BBF2CAB2977DEF300FF1403 /* AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2CAA2977DEF300FF1403 /* AspectRatio.swift */; };
+		8BBF2CB02977DFFA00FF1403 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2CAF2977DFFA00FF1403 /* Frame.swift */; };
+		8BBF2CB52977E19000FF1403 /* ClipShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2CB42977E19000FF1403 /* ClipShape.swift */; };
+		8BBF2CBA2977E4BE00FF1403 /* Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2CB92977E4BE00FF1403 /* Opacity.swift */; };
+		8BBF2CBF2977E7AB00FF1403 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBF2CBE2977E7AB00FF1403 /* Overlay.swift */; };
 		8BDF99402966C02200018C22 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF993F2966C02200018C22 /* TextView.swift */; };
 		8BDF99452966CB7B00018C22 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF99442966CB7B00018C22 /* ButtonView.swift */; };
 		8BDF994B2966DA8700018C22 /* PageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF994A2966DA8700018C22 /* PageRow.swift */; };
@@ -56,6 +65,15 @@
 		8BA248E92956D70A000DF74A /* SwiftUiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA248ED2956D70A000DF74A /* SwiftUiDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiDemoUITests.swift; sourceTree = "<group>"; };
 		8BA248EF2956D70A000DF74A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBF2C932977BE9400FF1403 /* ImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePage.swift; sourceTree = "<group>"; };
+		8BBF2C9B2977D2CE00FF1403 /* ResizableParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableParam.swift; sourceTree = "<group>"; };
+		8BBF2CA02977D51E00FF1403 /* EdgesIgnoringSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgesIgnoringSafeArea.swift; sourceTree = "<group>"; };
+		8BBF2CA52977DDB100FF1403 /* ScaledToFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledToFit.swift; sourceTree = "<group>"; };
+		8BBF2CAA2977DEF300FF1403 /* AspectRatio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatio.swift; sourceTree = "<group>"; };
+		8BBF2CAF2977DFFA00FF1403 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		8BBF2CB42977E19000FF1403 /* ClipShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipShape.swift; sourceTree = "<group>"; };
+		8BBF2CB92977E4BE00FF1403 /* Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opacity.swift; sourceTree = "<group>"; };
+		8BBF2CBE2977E7AB00FF1403 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		8BDF993F2966C02200018C22 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		8BDF99442966CB7B00018C22 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		8BDF994A2966DA8700018C22 /* PageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRow.swift; sourceTree = "<group>"; };
@@ -150,9 +168,26 @@
 			path = SwiftUiDemoUITests;
 			sourceTree = "<group>";
 		};
+		8BBF2C922977BE6F00FF1403 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8BBF2C932977BE9400FF1403 /* ImagePage.swift */,
+				8BBF2C9B2977D2CE00FF1403 /* ResizableParam.swift */,
+				8BBF2CA02977D51E00FF1403 /* EdgesIgnoringSafeArea.swift */,
+				8BBF2CA52977DDB100FF1403 /* ScaledToFit.swift */,
+				8BBF2CAA2977DEF300FF1403 /* AspectRatio.swift */,
+				8BBF2CAF2977DFFA00FF1403 /* Frame.swift */,
+				8BBF2CB42977E19000FF1403 /* ClipShape.swift */,
+				8BBF2CB92977E4BE00FF1403 /* Opacity.swift */,
+				8BBF2CBE2977E7AB00FF1403 /* Overlay.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		8BDF994F2966DC1200018C22 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				8BBF2C922977BE6F00FF1403 /* Image */,
 				8BDF99502966DC1C00018C22 /* Text */,
 			);
 			path = Page;
@@ -299,15 +334,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBF2CBF2977E7AB00FF1403 /* Overlay.swift in Sources */,
 				8B5C2D352976743D00D620B7 /* UnderlineTextFieldStyle.swift in Sources */,
+				8BBF2CB02977DFFA00FF1403 /* Frame.swift in Sources */,
+				8BBF2C9C2977D2CE00FF1403 /* ResizableParam.swift in Sources */,
+				8BBF2CA62977DDB100FF1403 /* ScaledToFit.swift in Sources */,
+				8BBF2C942977BE9400FF1403 /* ImagePage.swift in Sources */,
 				8BDF99402966C02200018C22 /* TextView.swift in Sources */,
 				8B5C2D2A297547BE00D620B7 /* KeyboardTypePage.swift in Sources */,
 				8BDF99522966DC2C00018C22 /* TextPage.swift in Sources */,
+				8BBF2CB52977E19000FF1403 /* ClipShape.swift in Sources */,
 				8BDF994B2966DA8700018C22 /* PageRow.swift in Sources */,
+				8BBF2CAB2977DEF300FF1403 /* AspectRatio.swift in Sources */,
 				8BA248D32956D6FB000DF74A /* ContentView.swift in Sources */,
 				8BDF99452966CB7B00018C22 /* ButtonView.swift in Sources */,
 				8B7EFD2C296D167200E9E269 /* TextFont.swift in Sources */,
 				8BA248D12956D6FB000DF74A /* SwiftUiDemoApp.swift in Sources */,
+				8BBF2CBA2977E4BE00FF1403 /* Opacity.swift in Sources */,
+				8BBF2CA12977D51E00FF1403 /* EdgesIgnoringSafeArea.swift in Sources */,
 				8BDF995A2967B44100018C22 /* TextFieldPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,7 +514,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,7 +536,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
