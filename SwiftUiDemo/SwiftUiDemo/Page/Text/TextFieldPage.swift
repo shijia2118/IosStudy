@@ -12,6 +12,8 @@ struct TextFieldPage: View {
     @State private var username: String = ""
     @State private var isEditing = false
     @State private var onChangeText = ""
+    @State private var onSubmit = ""
+
 
     
     var body: some View {
@@ -46,16 +48,23 @@ struct TextFieldPage: View {
                 
                 Section(header:Text("内置方法").bold()){
                     VStack(alignment: .leading){
-                        Text("内容改变:"+onChangeText)
+                        /// 输入框内容改变时的回调
+                        Text("onChange:"+onChangeText)
                         TextField("请输入...",text: $username)
                             .onChange(of: username, perform: { value in
                                 onChangeText = username
                             })
+                        /// 输入框聚焦或失焦时的回调
                         Text("是否聚焦:"+String(isEditing))
                         TextField("请输入...",text:$username){ isEditing in
                             self.isEditing = isEditing
-                            
                         }
+                        /// 提交内容
+                        Text("onSubmit:"+onSubmit)
+                        TextField("请输入...",text:$username)
+                            .onSubmit({
+                                onSubmit = username
+                            })
                     }
                 }
                 
@@ -101,12 +110,15 @@ struct TextFieldPage: View {
                             Text("字体大小写")
                             TextField("请输入...",text: $username)
                                 .textCase(.lowercase)
-                            
-                            TextField("请输入...",text: $username,prompt: Text("你的年紀"))
-                               
+                                                           
+                        }
+                        Group{
+                            /// 如果有prompt属性，则展示prompt内容；
+                            /// 如果没有prompt属性，则展示titleKey.
+                            Text("占位符")
+                            TextField("请输入...",text: $username,prompt: Text("Prompt"))
                         }
                             
-                       
                         
                            
                         
