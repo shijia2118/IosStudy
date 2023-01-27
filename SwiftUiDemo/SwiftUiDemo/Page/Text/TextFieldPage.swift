@@ -38,9 +38,9 @@ struct TextFieldPage: View {
                         TextField("请输入...",text: $username)
                             .textFieldStyle(UnderlineTextFieldStyle())
                         Text("多行文本(IOS16)")
-//                        if #available(iOS 16, *) {
-//                            TextField("请输入...",text:$username,axis:.vertical)
-//                        }
+                        if #available(iOS 16, *) {
+                            TextField("请输入...",text:$username,axis:.vertical)
+                        }
                     }
                 }
                 
@@ -101,6 +101,9 @@ struct TextFieldPage: View {
                             Text("字体大小写")
                             TextField("请输入...",text: $username)
                                 .textCase(.lowercase)
+                            
+                            TextField("请输入...",text: $username,prompt: Text("你的年紀"))
+                               
                         }
                             
                        
