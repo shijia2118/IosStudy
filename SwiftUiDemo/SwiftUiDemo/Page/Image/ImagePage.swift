@@ -66,8 +66,8 @@ struct ImagePage: View {
                 }
             }
             Section(header:Text("网络图片")){
-                VStack{
-                    Text("静态图")
+                NavigationLink(destination: AysncImage()){
+                    Text("点击跳转到AnsycImage>>>")
                 }
                
             }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6125762F2985545400F83C43 /* AysncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6125762E2985545400F83C43 /* AysncImage.swift */; };
 		8B5C2D2A297547BE00D620B7 /* KeyboardTypePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */; };
 		8B5C2D352976743D00D620B7 /* UnderlineTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C2D342976743D00D620B7 /* UnderlineTextFieldStyle.swift */; };
 		8B7EFD2C296D167200E9E269 /* TextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7EFD2B296D167200E9E269 /* TextFont.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6125762E2985545400F83C43 /* AysncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AysncImage.swift; sourceTree = "<group>"; };
 		8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTypePage.swift; sourceTree = "<group>"; };
 		8B5C2D342976743D00D620B7 /* UnderlineTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextFieldStyle.swift; sourceTree = "<group>"; };
 		8B7EFD2B296D167200E9E269 /* TextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFont.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				8BBF2CB42977E19000FF1403 /* ClipShape.swift */,
 				8BBF2CB92977E4BE00FF1403 /* Opacity.swift */,
 				8BBF2CBE2977E7AB00FF1403 /* Overlay.swift */,
+				6125762E2985545400F83C43 /* AysncImage.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				8BBF2C942977BE9400FF1403 /* ImagePage.swift in Sources */,
 				8BDF99402966C02200018C22 /* TextView.swift in Sources */,
 				8B5C2D2A297547BE00D620B7 /* KeyboardTypePage.swift in Sources */,
+				6125762F2985545400F83C43 /* AysncImage.swift in Sources */,
 				8BDF99522966DC2C00018C22 /* TextPage.swift in Sources */,
 				8BBF2CB52977E19000FF1403 /* ClipShape.swift in Sources */,
 				8BDF994B2966DA8700018C22 /* PageRow.swift in Sources */,
@@ -522,7 +526,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,7 +548,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
