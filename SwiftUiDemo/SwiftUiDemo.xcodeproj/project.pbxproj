@@ -184,9 +184,20 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		8BCA691529852D370016A866 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */,
+				8B5C2D342976743D00D620B7 /* UnderlineTextFieldStyle.swift */,
+				8BDF99592967B44100018C22 /* TextFieldPage.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
 		8BDF994F2966DC1200018C22 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				8BCA691529852D370016A866 /* TextField */,
 				8BBF2C922977BE6F00FF1403 /* Image */,
 				8BDF99502966DC1C00018C22 /* Text */,
 			);
@@ -197,10 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				8BDF99512966DC2C00018C22 /* TextPage.swift */,
-				8BDF99592967B44100018C22 /* TextFieldPage.swift */,
 				8B7EFD2B296D167200E9E269 /* TextFont.swift */,
-				8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */,
-				8B5C2D342976743D00D620B7 /* UnderlineTextFieldStyle.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -514,7 +522,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,7 +544,7 @@
 				DEVELOPMENT_TEAM = 2XZD4T9JXF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUiDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

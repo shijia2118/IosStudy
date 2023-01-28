@@ -40,9 +40,9 @@ struct TextFieldPage: View {
                         TextField("请输入...",text: $username)
                             .textFieldStyle(UnderlineTextFieldStyle())
                         Text("多行文本(IOS16)")
-                        if #available(iOS 16, *) {
-                            TextField("请输入...",text:$username,axis:.vertical)
-                        }
+//                        if #available(iOS 16, *) {
+//                            TextField("请输入...",text:$username,axis:.vertical)
+//                        }
                     }
                 }
                 
@@ -61,10 +61,10 @@ struct TextFieldPage: View {
                         }
                         /// 提交内容
                         Text("onSubmit:"+onSubmit)
-                        TextField("请输入...",text:$username)
-                            .onSubmit({
-                                onSubmit = username
-                            })
+//                        TextField("请输入...",text:$username)
+//                            .onSubmit({
+//                                onSubmit = username
+//                            })
                     }
                 }
                 
@@ -116,7 +116,8 @@ struct TextFieldPage: View {
                             /// 如果有prompt属性，则展示prompt内容；
                             /// 如果没有prompt属性，则展示titleKey.
                             Text("占位符")
-                            TextField("请输入...",text: $username,prompt: Text("Prompt"))
+//                            TextField("请输入...",text: $username,prompt: Text("Prompt"))
+                            
                         }
                             
                         

@@ -65,6 +65,12 @@ struct ImagePage: View {
                     }
                 }
             }
+            Section(header:Text("网络图片")){
+                VStack{
+                    Text("静态图")
+                }
+               
+            }
         }
     }
 }
