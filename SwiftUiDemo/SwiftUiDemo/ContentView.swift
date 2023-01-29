@@ -22,6 +22,9 @@ struct ContentView: View {
                     NavigationLink(destination: ImagePage()){
                         PageRow(title: "Image", subTitle:"显示图像控件" )
                     }
+                    NavigationLink(destination: ButtonPage()){
+                        PageRow(title: "Button", subTitle:"各类按钮" )
+                    }
                 }
             }
             .listStyle(GroupedListStyle())

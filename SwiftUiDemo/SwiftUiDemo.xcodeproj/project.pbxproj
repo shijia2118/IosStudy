@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6125762F2985545400F83C43 /* AysncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6125762E2985545400F83C43 /* AysncImage.swift */; };
+		61257632298627AF00F83C43 /* ButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61257631298627AF00F83C43 /* ButtonPage.swift */; };
 		8B5C2D2A297547BE00D620B7 /* KeyboardTypePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */; };
 		8B5C2D352976743D00D620B7 /* UnderlineTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5C2D342976743D00D620B7 /* UnderlineTextFieldStyle.swift */; };
 		8B7EFD2C296D167200E9E269 /* TextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7EFD2B296D167200E9E269 /* TextFont.swift */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		6125762E2985545400F83C43 /* AysncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AysncImage.swift; sourceTree = "<group>"; };
+		61257631298627AF00F83C43 /* ButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPage.swift; sourceTree = "<group>"; };
 		8B5C2D29297547BE00D620B7 /* KeyboardTypePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTypePage.swift; sourceTree = "<group>"; };
 		8B5C2D342976743D00D620B7 /* UnderlineTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineTextFieldStyle.swift; sourceTree = "<group>"; };
 		8B7EFD2B296D167200E9E269 /* TextFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFont.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		612576302986278E00F83C43 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				61257631298627AF00F83C43 /* ButtonPage.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		8BA248C42956D6FB000DF74A = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +210,7 @@
 		8BDF994F2966DC1200018C22 /* Page */ = {
 			isa = PBXGroup;
 			children = (
+				612576302986278E00F83C43 /* Button */,
 				8BCA691529852D370016A866 /* TextField */,
 				8BBF2C922977BE6F00FF1403 /* Image */,
 				8BDF99502966DC1C00018C22 /* Text */,
@@ -361,6 +372,7 @@
 				8BA248D32956D6FB000DF74A /* ContentView.swift in Sources */,
 				8BDF99452966CB7B00018C22 /* ButtonView.swift in Sources */,
 				8B7EFD2C296D167200E9E269 /* TextFont.swift in Sources */,
+				61257632298627AF00F83C43 /* ButtonPage.swift in Sources */,
 				8BA248D12956D6FB000DF74A /* SwiftUiDemoApp.swift in Sources */,
 				8BBF2CBA2977E4BE00FF1403 /* Opacity.swift in Sources */,
 				8BBF2CA12977D51E00FF1403 /* EdgesIgnoringSafeArea.swift in Sources */,
